@@ -2,6 +2,8 @@
 
 h2 {
     text-align: center;
+    color: #949494;
+    margin-bottom: 10px;
   }
   
   .heroes-menu {
@@ -27,8 +29,10 @@ h2 {
     display: inline-block;
     color: #fff;
     text-align: center;
-    width: 100%;
-    min-width: 70px;
+    /* width: 100%; */
+    width: 150px;
+    height: 130px;
+    /* min-width: 70px; */
     margin: .5rem auto;
     box-sizing: border-box;
   
@@ -38,12 +42,12 @@ h2 {
     align-self: auto;
   }
   
-  @media (min-width: 600px) {
+  /* @media (min-width: 600px) {
     a {
       width: 18%;
       box-sizing: content-box;
     }
-  }
+  } */
   
   a:hover {
     background-color: #000;
